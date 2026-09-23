@@ -1,0 +1,13 @@
+train: E:/TR/SIGN_UPDATE - Copy/train/images
+val: E:/TR/SIGN_UPDATE - Copy/valid/images
+test: E:/TR/SIGN_UPDATE - Copy/test/images
+
+nc: 3
+names: ['helmet', 'license_plate', 'motorcyclist']
+
+roboflow:
+  workspace: k-tnhmx
+  project: helmet-detection-and-number-plate-detection-gqppa-zgrzq
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/k-tnhmx/helmet-detection-and-number-plate-detection-gqppa-zgrzq/dataset/1
